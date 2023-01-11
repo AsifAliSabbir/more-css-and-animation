@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <!-- <link rel="stylesheet" href="./overflow.css"> -->
+    <style>
+        .mini-mini{
+            width: 200px;
+            border: 3px solid rebeccapurple;
+
+        }
+
+        .short-text{
+            /* disables the text-wrap */
+            white-space: nowrap;
+        }
+        .short-text2{
+            /* disables the text-wrap */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .mega-box{
+            height: 400px;
+            width: 400px;
+            border: 3px solid saddlebrown;
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+
+        .mega-box2{
+            height: 400px;
+            width: 400px;
+            border: 3px solid saddlebrown;
+
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <section>
+        <h3>css: white-space property</h3>
+        <div class="mini-mini">
+            <p class="short-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae voluptatem delectus, temporibus porro possimus eligendi dignissimos nesciunt sint fugiat?</p>
+        </div>
+        <div class="mini-mini">
+            <p class="short-text2" title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae voluptatem delectus, temporibus porro possimus eligendi dignissimos nesciunt sint fugiat?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae voluptatem delectus, temporibus porro possimus eligendi dignissimos nesciunt sint fugiat?</p>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="mega-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis provident cupiditate accusamus. Ullam dicta dignissimos vero, sapiente libero accusantium excepturi sunt sint suscipit aut, debitis voluptatum fuga nihil? Quae praesentium, doloremque, nulla voluptatum possimus repellendus maiores dolor qui provident reiciendis reprehenderit totam nisi eos cupiditate magni ea et recusandae modi architecto unde excepturi, voluptate placeat aut. Voluptatibus vero corrupti, sapiente tempora ut enim sit voluptates repellat mollitia veritatis, corporis suscipit molestiae delectus aspernatur perspiciatis minima repudiandae expedita rerum nulla dicta alias. Rem rerum facilis eos inventore dolorem iure voluptatibus officiis voluptas soluta eligendi sapiente molestiae deserunt reprehenderit quam ipsum nisi aliquam sequi minima repudiandae atque tempora esse fugit, labore quis. Distinctio quam autem rerum eos. Iusto ipsam, quaerat laboriosam, quisquam incidunt commodi, quidem vero ipsum voluptates aliquid atque quam at molestiae distinctio ab dignissimos. Ex, unde perferendis? Illo atque, alias dignissimos ullam nihil pariatur rerum nam possimus, libero nisi voluptas numquam adipisci? Pariatur reprehenderit est sunt at maxime veritatis alias tempora. Laudantium nisi aperiam modi eaque fuga porro velit reiciendis rem deleniti quia accusantium quas beatae, dolore quae officiis libero, blanditiis odit animi illum itaque doloremque, hic quasi perferendis soluta! Nemo cupiditate eligendi minus officia nisi odit earum nam.</p>
+        </div>
+        <div class="mega-box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis provident cupiditate accusamus. Ullam dicta dignissimos vero, sapiente libero accusantium excepturi sunt sint suscipit aut, debitis voluptatum fuga nihil? Quae praesentium, doloremque, nulla voluptatum possimus repellendus maiores dolor qui provident reiciendis reprehenderit totam nisi eos cupiditate magni ea et recusandae modi architecto unde excepturi, voluptate placeat aut. Voluptatibus vero corrupti, sapiente tempora ut enim sit voluptates repellat mollitia veritatis, corporis suscipit molestiae delectus aspernatur perspiciatis minima repudiandae expedita rerum nulla dicta alias. Rem rerum facilis eos inventore dolorem iure voluptatibus officiis voluptas soluta eligendi sapiente molestiae deserunt reprehenderit quam ipsum nisi aliquam sequi minima repudiandae atque tempora esse fugit, labore quis. Distinctio quam autem rerum eos. Iusto ipsam, quaerat laboriosam, quisquam incidunt commodi, quidem vero ipsum voluptates aliquid atque quam at molestiae distinctio ab dignissimos. Ex, unde perferendis? Illo atque, alias dignissimos ullam nihil pariatur rerum nam possimus, libero nisi voluptas numquam adipisci? Pariatur reprehenderit est sunt at maxime veritatis alias tempora. Laudantium nisi aperiam modi eaque fuga porro velit reiciendis rem deleniti quia accusantium quas beatae, dolore quae officiis libero, blanditiis odit animi illum itaque doloremque, hic quasi perferendis soluta! Nemo cupiditate eligendi minus officia nisi odit earum nam.</p>
+        </div>
+    </section>
+    
+</body>
+</html>
