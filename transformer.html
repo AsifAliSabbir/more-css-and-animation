@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Transform</title>
+    <style>
+        .container, .inner{
+            height: 150px;
+            width: 150px;
+            border: 3px solid red;
+        }
+
+        .container{
+            background-color: burlywood;
+
+        }
+ 
+        .inner{
+            background-color:yellowgreen;
+            transform: scale(0.5);
+            transform: scale(1.5);
+            transform: rotate(30deg);
+            transform: rotatey(130deg);
+            transform: rotatex(130deg);
+            transform: rotatez(120deg);
+            transform: scale(0.75) rotatez(120deg);
+            transform: translate(100px);
+            transform: translatex(100px);
+            transform: translatey(100px);
+            transform: translate(100px, 200px);
+            transform: translate(100px, 200px) scale(0.75) rotatez(120deg);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Css transform property examples
+    </h1>
+
+    <div class="box container">
+        <div class="inner">box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-3</div>
+    </div>
+
+</body>
+</html>
